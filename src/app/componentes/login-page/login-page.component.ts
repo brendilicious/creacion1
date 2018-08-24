@@ -33,4 +33,8 @@ export class LoginPageComponent implements OnInit {
       this.router.navigate(['/login']);
     });
   }
+
+  onClickGoogleLogin(){
+    console.log('GOOGLE');
+  }
 }
